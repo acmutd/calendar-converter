@@ -1,4 +1,4 @@
-import { ZonedDateTime } from "@js-joda/core";
+import { LocalDate, LocalTime, ZonedDateTime, ZoneId, ZoneOffset } from "@js-joda/core";
 import "@js-joda/timezone";
 import { google } from "googleapis";
 import { createEvents } from "ics";
@@ -38,12 +38,16 @@ function rowToEvent(row: any[]): Event {
     return row[EXPECTED_COLUMNS.indexOf(column)];
   }
 
-  const startTimestamp = `${getValue("Date")}T${to24hour(getValue("Start Time"))}Z[America/Chicago]`;
-  const endTimestamp = `${getValue("End Date")}T${to24hour(getValue("End Time"))}Z[America/Chicago]`;
+  function parseDate(dateCol: Column, timeCol: Column): ZonedDateTime {
+    const localDate = LocalDate.parse(getValue(dateCol));
+    const localTime = LocalTime.parse(to24hour(getValue(timeCol)));
+    const chicagoDateTime = ZonedDateTime.of(localDate, localTime, ZoneId.of("America/Chicago"));
+    return chicagoDateTime.withZoneSameInstant(ZoneOffset.UTC);
+  }
 
   return {
-    start: ZonedDateTime.parse(startTimestamp),
-    end: ZonedDateTime.parse(endTimestamp),
+    start: parseDate("Date", "Start Time"),
+    end: parseDate("End Date", "End Time"),
     name: getValue("Name"),
     description: getValue("Description"),
     public: getValue("Public") == 'TRUE'
