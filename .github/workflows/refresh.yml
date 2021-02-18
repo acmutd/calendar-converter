@@ -30,8 +30,16 @@ jobs:
         run: |
           npm run build
 
+      # Setup gcloud
+      - uses: google-github-actions/setup-gcloud@master
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          export_default_credentials: true
+
       # Run the script and output resulting ics to output dir
       - name: Run
+        env:
+          EVENT_SPREADSHEET_ID: ${{ secrets.EVENT_SPREADSHEET_ID }}
         run: |
           mkdir output
           node build/index.js > output/calendar.ics
