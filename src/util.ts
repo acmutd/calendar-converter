@@ -1,4 +1,4 @@
-import { LocalDateTime } from "@js-joda/core";
+import { ZonedDateTime } from "@js-joda/core";
 import { DateArray } from "ics";
 
 export function to24hour(time12: string): string {
@@ -19,6 +19,6 @@ export function arrayEquals<T>(xs: readonly T[], ys: readonly T[]): boolean {
   return xs.length === ys.length && xs.every((v, i) => v === ys[i]);
 }
 
-export function toDateArray(ldt: LocalDateTime): DateArray {
+export function toDateArray(ldt: ZonedDateTime): DateArray {
   return [ldt.year(), ldt.monthValue(), ldt.dayOfMonth(), ldt.hour(), ldt.minute()];
 }

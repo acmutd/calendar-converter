@@ -1,4 +1,5 @@
-import { LocalDateTime } from "@js-joda/core";
+import { ZonedDateTime } from "@js-joda/core";
+import "@js-joda/timezone";
 import { google } from "googleapis";
 import { createEvents } from "ics";
 import { arrayEquals, to24hour, toDateArray } from "./util";
@@ -7,8 +8,8 @@ const EXPECTED_COLUMNS = ["Date", "End Date", "Day of Week", "Start Time", "End 
 type Column = typeof EXPECTED_COLUMNS[number];
 
 interface Event {
-  start: LocalDateTime;
-  end: LocalDateTime;
+  start: ZonedDateTime;
+  end: ZonedDateTime;
   name: string;
   description: string;
   public: boolean;
@@ -37,12 +38,12 @@ function rowToEvent(row: any[]): Event {
     return row[EXPECTED_COLUMNS.indexOf(column)];
   }
 
-  const startTimestamp = `${getValue("Date")}T${to24hour(getValue("Start Time"))}`;
-  const endTimestamp = `${getValue("End Date")}T${to24hour(getValue("End Time"))}`;
+  const startTimestamp = `${getValue("Date")}T${to24hour(getValue("Start Time"))}Z[America/Chicago]`;
+  const endTimestamp = `${getValue("End Date")}T${to24hour(getValue("End Time"))}Z[America/Chicago]`;
 
   return {
-    start: LocalDateTime.parse(startTimestamp),
-    end: LocalDateTime.parse(endTimestamp),
+    start: ZonedDateTime.parse(startTimestamp),
+    end: ZonedDateTime.parse(endTimestamp),
     name: getValue("Name"),
     description: getValue("Description"),
     public: getValue("Public") == 'TRUE'
@@ -69,6 +70,10 @@ function toIcs(events: Event[], includePrivate: boolean = false): string {
       end: toDateArray(e.end),
       title: e.name,
       description: e.description,
+      startInputType: 'utc',
+      endInputType: 'utc',
+      startOutputType: 'utc',
+      endOutputType: 'utc'
     };
   }));
 
