@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 import { LocalDateTime } from "@js-joda/core";
 import { google } from "googleapis";
 import { createEvents } from "ics";

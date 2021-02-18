@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@js-joda/core": "^3.2.0",
-    "dotenv": "^8.2.0",
     "googleapis": "^67.0.0",
     "ics": "^2.26.2"
   },
