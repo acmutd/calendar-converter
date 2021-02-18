@@ -54,5 +54,7 @@ jobs:
           branch: ics
           folder: output
 
+          commit-message: Updating calendar.ics
+
           git-config-name: github-actions[bot]
           git-config-email: 41898282+github-actions[bot]@users.noreply.github.com
