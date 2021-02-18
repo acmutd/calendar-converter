@@ -5,7 +5,7 @@ import { google } from "googleapis";
 import { createEvents } from "ics";
 import { arrayEquals, to24hour, toDateArray } from "./util";
 
-const EXPECTED_COLUMNS = ["Date", "Day of Week", "Start Time", "End Time", "Name", "Description", "Location", "Division", "Collaborator(s)", "Public"] as const;
+const EXPECTED_COLUMNS = ["Date", "End Date", "Day of Week", "Start Time", "End Time", "Name", "Description", "Location", "Division", "Collaborator(s)", "Public"] as const;
 type Column = typeof EXPECTED_COLUMNS[number];
 
 interface Event {
@@ -26,7 +26,7 @@ async function fetchSpreadsheet(): Promise<any[][]> {
   });
 
   const res = await sheets.spreadsheets.values.get({
-    spreadsheetId: '1_B9ynsVh3nxyNbR2z0ljO8Izc_yXhy3GK9ZRWfv98U4',
+    spreadsheetId: process.env.EVENT_SPREADSHEET_ID,
     range: 'Events'
   });
 
@@ -40,7 +40,7 @@ function rowToEvent(row: any[]): Event {
   }
 
   const startTimestamp = `${getValue("Date")}T${to24hour(getValue("Start Time"))}`;
-  const endTimestamp = `${getValue("Date")}T${to24hour(getValue("End Time"))}`;
+  const endTimestamp = `${getValue("End Date")}T${to24hour(getValue("End Time"))}`;
 
   return {
     start: LocalDateTime.parse(startTimestamp),

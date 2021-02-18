@@ -11,7 +11,7 @@ export function to24hour(time12: string): string {
   else if (period == "AM" && hourInt == 12)
     hourInt = 0;
 
-  return `${hourInt}:${minute}`;
+  return `${String(hourInt).padStart(2, "0")}:${minute}`;
 }
 
 // because js is beyond stupid and doesn't have this built in...
