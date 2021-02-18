@@ -82,4 +82,7 @@ fetchSpreadsheet()
   .then(spreadsheetToEvents)
   .then(toIcs)
   .then(console.log)
-  .catch(r => console.log(`Error: ${r}`));
+  .catch(r => {
+    console.error(`Error: ${r}`);
+    process.exit(1);
+  });
