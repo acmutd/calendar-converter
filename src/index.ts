@@ -66,6 +66,7 @@ function toIcs(events: Event[], includePrivate: boolean = false): string {
   const includedEvents = includePrivate ? events : events.filter(e => e.public);
   const { error, value } = createEvents(includedEvents.map(e => {
     return {
+      calName: "ACM Events",
       start: toDateArray(e.start),
       end: toDateArray(e.end),
       title: e.name,
