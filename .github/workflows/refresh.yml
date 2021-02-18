@@ -1,0 +1,48 @@
+name: Refresh ICS
+
+on:
+  schedule:
+    # Run at 00:00 UTC every day
+    - cron: "0 0 * * *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout master
+      - uses: actions/checkout@v2
+
+      # Setup node
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          npm install
+
+      # Run typescript compiler
+      - name: Build
+        run: |
+          npm run build
+
+      # Run the script and output resulting ics to output dir
+      - name: Run
+        run: |
+          mkdir output
+          node build/index.js > output/calendar.ics
+
+      # Abuse this action intended for deploying a gh-pages site to instead push
+      # the ics file to its own branch
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: ics
+          folder: output
+
+          git-config-name: github-actions[bot]
+          git-config-email: 41898282+github-actions[bot]@users.noreply.github.com
