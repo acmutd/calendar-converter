@@ -9,8 +9,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  refresh:
     runs-on: ubuntu-latest
+    environment: Deployment
+
     steps:
       # Checkout master
       - uses: actions/checkout@v2
