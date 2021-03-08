@@ -52,8 +52,7 @@ jobs:
           BIRTHDAY_SPREADSHEET_ID: ${{ secrets.BIRTHDAY_SPREADSHEET_ID }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
         run: |
-          mkdir output
-          node build/birthday.js
+          npm run birthday
 
       # Abuse this action intended for deploying a gh-pages site to instead push
       # the ics file to its own branch
