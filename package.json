@@ -5,11 +5,13 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p .",
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "birthday": "node build/birthday.js"
   },
   "dependencies": {
     "@js-joda/core": "^3.2.0",
     "@js-joda/timezone": "^2.5.0",
+    "axios": "^0.21.1",
     "googleapis": "^67.0.0",
     "ics": "^2.26.2"
   },

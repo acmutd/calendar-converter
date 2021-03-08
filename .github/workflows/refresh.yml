@@ -28,7 +28,7 @@ jobs:
           npm install
 
       # Run typescript compiler
-      - name: Build
+      - name: Compile Typescript
         run: |
           npm run build
 
@@ -38,17 +38,26 @@ jobs:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
 
-      # Run the script and output resulting ics to output dir
-      - name: Run
+      # Run the ics script and output resulting ics to output dir
+      - name: Build ICS file
         env:
           EVENT_SPREADSHEET_ID: ${{ secrets.EVENT_SPREADSHEET_ID }}
         run: |
           mkdir output
           node build/index.js > output/calendar.ics
+      
+      # Run the birthday script and send slack messages
+      - name: Run Birthday Script
+        env:
+          BIRTHDAY_SPREADSHEET_ID: ${{ secrets.BIRTHDAY_SPREADSHEET_ID }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+        run: |
+          mkdir output
+          node build/birthday.js
 
       # Abuse this action intended for deploying a gh-pages site to instead push
       # the ics file to its own branch
-      - name: Deploy
+      - name: Deploy ICS file
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           branch: ics

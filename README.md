@@ -42,3 +42,20 @@ The script utilizes two [Environment secrets](https://docs.github.com/en/actions
 Clone the repo, run `npm install`, build with `npm run build`, run with `npm run start`. It might be more convenient to run the compiler in watch mode which can be done with `npm run build -- --watch`.
 
 The same Google Workspace set up process described above is required. The `EVENT_SPREADSHEET_ID` environment variable is the same, but Google API authentication will work differently. Instead of the `GCP_SA_KEY` variable, export a `GOOGLE_APPLICATION_CREDENTIALS` variable which has that path to the service account key json file (as opposed to the `GCP_SA_KEY` variable, this _is_ a file path, not the raw JSON string).
+
+##### Getting the Service Account JSON
+
+ - Open GCP and navigate to the Calendar Converter project
+ - Open up the IAM page and navigate to the Service Accounts tab
+ - Select the calendar convert service key and open up the Keys tab
+ - Click Add Key and set it to be JSON
+ - It will automatically download a `.json` file which you can place in the root of the project
+ - You can rename the file to bee `calendar-converter.json` which is included in the `.gitignore`
+
+
+The environement variables can then be set as follows:
+
+```
+$ export EVENT_SPREADSHEET_ID=<INSERT ID HERE>
+$ export GOOGLE_APPLICATION_CREDENTIALS=<INSERT PATH TO JSON FILE>
+```
