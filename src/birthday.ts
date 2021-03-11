@@ -9,7 +9,7 @@ import messages from "./messages";
  * a sanity check in `spreadsheetToEvents` to make sure that the spreadsheet
  * format hasn't changed before we try manipulating things.
  */
-const EXPECTED_COLUMNS = ["Name", "Birthday"] as const;
+const EXPECTED_COLUMNS = ["Name", "Birthday (mm/dd/yyyy)"] as const;
 /**
  * The union of all of the strings in EXPECTED_COLUMNS (i.e., "Name" | "Birthday" | ...).
  * This allows us to ensure we don't accidentally use non-existant column name.
@@ -76,7 +76,7 @@ function rowToEvent(row: any[]): Birthday {
 
   return {
     name: getValue("Name"),
-    birthday: parseDate("Birthday"),
+    birthday: parseDate("Birthday (mm/dd/yyyy)"),
   };
 }
 
