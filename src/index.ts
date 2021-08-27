@@ -2,7 +2,7 @@ import { LocalDate, LocalTime, ZonedDateTime, ZoneId, ZoneOffset } from "@js-jod
 import "@js-joda/timezone";
 import { google } from "googleapis";
 import { createEvents } from "ics";
-import { arrayEquals, to24hour, toDateArray } from "./util";
+import { arrayEquals, to24hour, toDateArray, notUndefined } from "./util";
 
 /**
  * This is what we expect the first row of the spreadsheet to be. We use this as
@@ -60,7 +60,7 @@ async function fetchSpreadsheet(): Promise<any[][]> {
  * Converts a single row of the spreadsheet to an `Event`.
  * @param row A row of the spreadsheet (an element of the result of `fetchSpreadsheet()`).
  */
-function rowToEvent(row: any[]): Event {
+function rowToEvent(row: any[]): Event | undefined {
   /**
    * Convenience function for getting a value from the row given a column name
    * (e.g., `getValue("Date")` would get the first element of `row`).
@@ -85,12 +85,18 @@ function rowToEvent(row: any[]): Event {
     return chicagoDateTime.withZoneSameInstant(ZoneOffset.UTC);
   }
 
-  return {
-    start: parseDate("Date", "Start Time"),
-    end: parseDate("End Date", "End Time"),
-    name: getValue("Name"),
-    description: getValue("Description"),
-    public: getValue("Public") == 'TRUE'
+  try {
+    return {
+      start: parseDate("Date", "Start Time"),
+      end: parseDate("End Date", "End Time"),
+      name: getValue("Name"),
+      description: getValue("Description"),
+      public: getValue("Public") == 'TRUE'
+    }
+  } catch (e) {
+    console.error(`Discarding event: ${row}`)
+    console.error(e);
+    return
   }
 }
 
@@ -105,7 +111,7 @@ function spreadsheetToEvents(spreadsheet: any[][]): Event[] {
   }
 
   spreadsheet.shift(); // discard header row
-  return spreadsheet.map(rowToEvent);
+  return spreadsheet.map(rowToEvent).filter(notUndefined);
 }
 
 /**

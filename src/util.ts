@@ -22,3 +22,7 @@ export function arrayEquals<T>(xs: readonly T[], ys: readonly T[]): boolean {
 export function toDateArray(ldt: ZonedDateTime): DateArray {
   return [ldt.year(), ldt.monthValue(), ldt.dayOfMonth(), ldt.hour(), ldt.minute()];
 }
+
+export function notUndefined<T>(x: T | undefined): x is T {
+  return x !== undefined
+}
