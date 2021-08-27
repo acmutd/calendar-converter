@@ -9,7 +9,7 @@ import { arrayEquals, to24hour, toDateArray } from "./util";
  * a sanity check in `spreadsheetToEvents` to make sure that the spreadsheet
  * format hasn't changed before we try manipulating things.
  */
-const EXPECTED_COLUMNS = ["Date", "End Date", "Day of Week", "Start Time", "End Time", "Name", "Description", "Location", "Division", "Collaborator(s)", "Public"] as const;
+const EXPECTED_COLUMNS = ["Date", "End Date", "Day of Week", "Start Time", "End Time", "Name", "Description", "Location", "Division", "Collaborators", "Public"] as const;
 /**
  * The union of all of the strings in EXPECTED_COLUMNS (i.e., "Date" | "End Date" | ...).
  * This allows us to ensure we don't accidentally use non-existant column name.
