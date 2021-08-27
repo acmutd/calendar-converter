@@ -6,303 +6,180 @@ METHOD:PUBLISH
 X-WR-CALNAME:ACM Events
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:cf213800-7cd7-4ee6-b342-6ab88d61c907
-SUMMARY:ACM Kickoff
-DTSTAMP:20210827T062500Z
-DTSTART:20210130T010000Z
-DTEND:20210130T020000Z
+UID:68f16d4a-576d-42fe-921d-16472d660ae4
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20210825T013000Z
+DTEND:20210825T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:438576e7-5eda-476e-afe3-c59560b509ba
-SUMMARY:Introduction to Data Mining
-DTSTAMP:20210827T062500Z
-DTSTART:20210203T023000Z
-DTEND:20210203T033000Z
+UID:ecf1eccf-0d40-46f0-bed2-4286f98d9c5e
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20210901T013000Z
+DTEND:20210901T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:6a14bcf4-b9c9-4eac-9736-06186cf48ccf
-SUMMARY:A Look into NLP and Research Engineering at Google
-DTSTAMP:20210827T062500Z
-DTSTART:20210210T020000Z
-DTEND:20210210T030000Z
+UID:4d4fb0d2-a4dd-4f7a-86ec-3da198728d5b
+SUMMARY:ACM Kick Off
+DTSTAMP:20210827T195900Z
+DTSTART:20210903T003000Z
+DTEND:20210903T023000Z
+DESCRIPTION:Join us on Sep 2nd at 7:30 pm CST at SCI 1.220 to learn about h
+	ow to get involved in ACM. We will go over all ACM programs and initiative
+	s and provide information on open applications. You'll also get to know ou
+	r sponsors and other ECS orgs\, so don't miss out! 
 END:VEVENT
 BEGIN:VEVENT
-UID:878b7ac8-ff63-4df3-b131-196ba8a98630
-SUMMARY:Development Fireside Presentation
-DTSTAMP:20210827T062500Z
-DTSTART:20210212T233000Z
-DTEND:20210213T004500Z
+UID:7fedf016-5204-4d06-97f0-65295db3af0c
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20210908T013000Z
+DTEND:20210908T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:8f8a9ee2-3c37-42d0-bf2b-f79f400005aa
-SUMMARY:Introduction to Amazon Honeycode Workshop
-DTSTAMP:20210827T062500Z
-DTSTART:20210220T190000Z
-DTEND:20210220T200000Z
-DESCRIPTION:Always wanted to build your dream app? AWS Educate Student Amba
-	ssadors from the University of Texas at Dallas\, University of Alaska Fair
-	banks and University of Virginia are collaborating for the first time ever
-	 and will help you build apps without having to code. No prior AWS or prog
-	ramming experience required.
+UID:70024028-e22d-468e-aaa1-be97713d0f68
+SUMMARY:American Airlines Tech Talk
+DTSTAMP:20210827T195900Z
+DTSTART:20210914T223000Z
+DTEND:20210915T000000Z
+DESCRIPTION:Full Stack Dev with React and NodeJS
 END:VEVENT
 BEGIN:VEVENT
-UID:665a048d-0471-458c-8b84-0c669759ba22
-SUMMARY:LinkedIn\, Handshake\, and Resume Building Social
-DTSTAMP:20210827T062500Z
-DTSTART:20210224T200000Z
-DTEND:20210225T000000Z
-DESCRIPTION:Craft the perfect LinkedIn and Handshake profile and Resume whi
-	le taking breaks to play games with friends.
+UID:59b28a51-96e8-4c3c-87b2-049a75a3abb0
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20210915T013000Z
+DTEND:20210915T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:32047ee9-7ea2-4ea7-9f5d-55cf3116a735
-SUMMARY:Hacking the Hackathon
-DTSTAMP:20210827T062500Z
-DTSTART:20210225T010000Z
-DTEND:20210225T020000Z
-DESCRIPTION:A workshop where hackathon enthusiasts share their tips and tri
-	cks and walk you through all stages of hackathons 
+UID:2d642f07-6a6b-4d32-b3cf-8a58c9641351
+SUMMARY:CS 101
+DTSTAMP:20210827T195900Z
+DTSTART:20210917T000000Z
+DTEND:20210917T013000Z
 END:VEVENT
 BEGIN:VEVENT
-UID:af7f1768-add0-424f-8f75-d4b3681b263d
-SUMMARY:Mock Interviews with CBRE
-DTSTAMP:20210827T062500Z
-DTSTART:20210226T010000Z
-DTEND:20210226T023000Z
+UID:4da83e59-9381-4b4f-9573-274a342e85b8
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20210922T013000Z
+DTEND:20210922T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:8991417b-d0f0-4ae8-8998-3c1c0d135cc0
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210227T010000Z
-DTEND:20210227T020000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
+UID:5a530f19-aadf-4cad-93a3-950976b82534
+SUMMARY:Paycom Tech Talk
+DTSTAMP:20210827T195900Z
+DTSTART:20210923T230000Z
+DTEND:20210924T003000Z
+DESCRIPTION:Software development life cycle
 END:VEVENT
 BEGIN:VEVENT
-UID:2a0e0c25-c386-442e-a32b-14076eb38a4c
+UID:52d3d3f3-4e41-4663-b098-df97767b8c09
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20210929T013000Z
+DTEND:20210929T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:f0977ad6-584d-40ba-b9b3-fb73c8e08f6f
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211006T013000Z
+DTEND:20211006T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:6ba10a3d-ac4e-4935-9c61-a3554365ce99
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211013T013000Z
+DTEND:20211013T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:15c7356f-f93a-4f11-aa40-8466504a1980
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211020T013000Z
+DTEND:20211020T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:85420bca-fa12-44be-bc5b-f02cef089a35
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211027T013000Z
+DTEND:20211027T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:1a286ad1-e115-4a6b-9118-744d7eea4640
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211103T013000Z
+DTEND:20211103T030000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:456fdb7f-0079-41b1-b65c-3da78a3fcf53
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211110T023000Z
+DTEND:20211110T040000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
+END:VEVENT
+BEGIN:VEVENT
+UID:3733e5ee-85d0-486d-8ebc-234773c7599b
 SUMMARY:HackUTD
-DTSTAMP:20210827T062500Z
-DTSTART:20210227T150000Z
-DTEND:20210228T230000Z
+DTSTAMP:20210827T195900Z
+DTSTART:20211113T150000Z
+DTEND:20211114T230000Z
+DESCRIPTION:literally like the event of the century. imagine gatsby's party
+	 but like not that theme and also cooler
 END:VEVENT
 BEGIN:VEVENT
-UID:dfc9095c-720f-4d32-9c9b-cc6f60766aa6
-SUMMARY:APIs 101 with Postman
-DTSTAMP:20210827T062500Z
-DTSTART:20210303T010000Z
-DTEND:20210303T020000Z
-DESCRIPTION:Learn the basics of APIs in this hands-on 101 session with Post
-	man. Get direct experience working with APIs and Postman\, an industry-sta
-	ndard tool.
+UID:a7950e3d-8a61-4ffe-ab7e-fcc1033be7fc
+SUMMARY:Coding Hangouts
+DTSTAMP:20210827T195900Z
+DTSTART:20211117T023000Z
+DTEND:20211117T040000Z
+DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
+	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:b16bb655-29c1-4468-8179-b3187389ee86
-SUMMARY:Development Fireside Presentation
-DTSTAMP:20210827T062500Z
-DTSTART:20210305T233000Z
-DTEND:20210306T004500Z
-END:VEVENT
-BEGIN:VEVENT
-UID:d5f71efc-93d2-4797-8949-795f08a9d3a2
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210306T010000Z
-DTEND:20210306T020000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:1362f93a-30fd-4f8d-98c3-e31608e99d22
-SUMMARY:Intern Fair Prep
-DTSTAMP:20210827T062500Z
-DTSTART:20210310T010000Z
-DTEND:20210310T020000Z
-DESCRIPTION:Learn what to expect and how to crush the virtual intern fair!
-END:VEVENT
-BEGIN:VEVENT
-UID:e9d4c60f-1756-424c-bca0-ff154a8560e1
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210313T010000Z
-DTEND:20210313T020000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:eae42aa1-f458-4716-ad3b-0c01da618ee5
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210320T000000Z
-DTEND:20210320T010000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:d76197f9-7f61-43a5-b21f-429460cbf0c6
-SUMMARY:Creating a Discord Bot on Compute Engine w/ DSC
-DTSTAMP:20210827T062500Z
-DTSTART:20210325T000000Z
-DTEND:20210325T010000Z
-DESCRIPTION:Get hands-on experience with the Discord.py library and create 
-	your own discord bot on Google Compute Engine that replies to your message
-	s and gives weather information from the OpenWeather API
-END:VEVENT
-BEGIN:VEVENT
-UID:8e15c3e0-4fb6-4053-8df5-ef49196f94d7
-SUMMARY:React Workshop with Paycom
-DTSTAMP:20210827T062500Z
-DTSTART:20210326T000000Z
-DTEND:20210326T010000Z
-DESCRIPTION:Learn the basics of React while building and publishing a perso
-	nal portfolio for yourself.
-END:VEVENT
-BEGIN:VEVENT
-UID:d1a9c4e1-27b2-4a3a-a0b3-579d12ae74ee
-SUMMARY:Development Fireside Presentation
-DTSTAMP:20210827T062500Z
-DTSTART:20210326T223000Z
-DTEND:20210326T234500Z
-END:VEVENT
-BEGIN:VEVENT
-UID:d3dcf032-2cda-4d19-8073-34455c2a7853
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210327T000000Z
-DTEND:20210327T010000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:a6bf0381-b0fe-4c86-b441-955b08cf4262
-SUMMARY:Newlywed Game
-DTSTAMP:20210827T062500Z
-DTSTART:20210327T210000Z
-DTEND:20210327T220000Z
-DESCRIPTION:Want to test how well you know one of your friends? Bring a fri
-	end and join us on the ACM Discord for a friendly version of the Newlywed 
-	Game!
-END:VEVENT
-BEGIN:VEVENT
-UID:d4c3b166-26fd-4ce9-9131-da5ed31578ad
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210403T000000Z
-DTEND:20210403T010000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:5b837985-c4c4-45c3-baa2-4ed4261ab8cb
-SUMMARY:How to Start from the Ground Up with Matt Bierman
-DTSTAMP:20210827T062500Z
-DTSTART:20210403T190000Z
-DTEND:20210403T200000Z
-DESCRIPTION:Join us for a chat with Matt Bierman\, a recent UTD and ACM alu
-	m! He will dive into his career journey of entrepreneurship and software e
-	ngineering\, how to start your own business and/or engineering career\, an
-	d how to overcome imposter syndrome.\n\nHave questions you'd like Matt to 
-	answer during the event? Submit them ahead of time at https://content.acmu
-	td.co/QuestionsForMatt or ask during the live Q&A.
-END:VEVENT
-BEGIN:VEVENT
-UID:221487d2-db36-48a0-a958-a25aa59c8775
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210410T000000Z
-DTEND:20210410T010000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:3e468654-8f84-4d8f-8455-b3845630e34a
-SUMMARY:Navigating College Life and Mental Health
-DTSTAMP:20210827T062500Z
-DTSTART:20210415T230000Z
-DTEND:20210416T000000Z
-DESCRIPTION:Join students from the ACM Chapter of UT Dallas\, Texas A&M\, a
-	nd UT San Antonio to learn how to focus on and improve mental health\, bet
-	ter navigate college life\, be involved on campus\, and get personal tips 
-	on how to take advantage of resources and fully experience the in-person c
-	ollege life. Link: https://join.acmutd.co/tacsutsa
-END:VEVENT
-BEGIN:VEVENT
-UID:36c4cc2d-0e3d-48d7-b6ee-d35348fa3511
-SUMMARY:Interview Prep: Dynamic Programming Workshop
-DTSTAMP:20210827T062500Z
-DTSTART:20210416T013000Z
-DTEND:20210416T030000Z
-DESCRIPTION:This TIP workshop is open to all students to learn about then w
-	ork together on algorithmic questions related to dynamic programming
-END:VEVENT
-BEGIN:VEVENT
-UID:313e585c-0f04-4245-b801-1696ccf68e19
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210417T000000Z
-DTEND:20210417T010000Z
-DESCRIPTION:Last ACM Social Hours of the semester. Join us to play a game o
-	f Jeopardy about ACM\, ACM's history\, our current situation and more
-END:VEVENT
-BEGIN:VEVENT
-UID:de95ffb6-a22b-4684-aa72-a160140723de
-SUMMARY:Development Fireside Presentation
-DTSTAMP:20210827T062500Z
-DTSTART:20210416T223000Z
-DTEND:20210416T234500Z
-END:VEVENT
-BEGIN:VEVENT
-UID:e068ad3a-d099-4a05-96cb-66686f6926f6
-SUMMARY:AR Engineering: Learn to Create Snapchat Filters
-DTSTAMP:20210827T062500Z
-DTSTART:20210423T000000Z
-DTEND:20210423T010000Z
-DESCRIPTION:Learn how to use Lens Studio to create Augmented Reality experi
-	ences for the Snapchat app! This workshop involves creating three differen
-	t filters. Lens Studio is a no-code platform so even if you aren't familia
-	r with programming\, feel free to come.
-END:VEVENT
-BEGIN:VEVENT
-UID:4bbd8918-bec4-4e1f-8160-828ff008e8f1
-SUMMARY:ACM Social Hours
-DTSTAMP:20210827T062500Z
-DTSTART:20210424T000000Z
-DTEND:20210424T010000Z
-DESCRIPTION:Hangout with ACM members and officers and get to know new peopl
-	e
-END:VEVENT
-BEGIN:VEVENT
-UID:e1689a8d-4cb4-4e59-814b-6fdaa376a88b
+UID:57cc6704-086b-401d-aee6-3912f5ae20ec
 SUMMARY:Projects Presentation Night
-DTSTAMP:20210827T062500Z
-DTSTART:20210429T010000Z
-DTEND:20210429T030000Z
-DESCRIPTION:Presentation for all 12 teams to show off what they've worked o
-	n throughout the semester
+DTSTAMP:20210827T195900Z
+DTSTART:20211118T020000Z
+DTEND:20211118T040000Z
+DESCRIPTION:Presentation for all teams to show off what they've worked on t
+	hroughout the semester
 END:VEVENT
 BEGIN:VEVENT
-UID:f8a5609e-dd39-46e0-a644-74772ad4c77c
-SUMMARY:The Handshake Between Design and Development with projekt202
-DTSTAMP:20210827T062500Z
-DTSTART:20210429T230000Z
-DTEND:20210430T000000Z
-END:VEVENT
-BEGIN:VEVENT
-UID:e38fcfa6-ec42-4250-89a8-e89257329351
-SUMMARY:End of Semester Wrapup with ACM Education
-DTSTAMP:20210827T062500Z
-DTSTART:20210507T220000Z
-DTEND:20210507T230000Z
-DESCRIPTION:Join us as we play Google Feud and reveal the winners of our Me
-	ntor Program and the overall ACM attendance! You can also learn how to get
-	 involved with ACM Education.
-END:VEVENT
-BEGIN:VEVENT
-UID:f776e9d0-b0cd-42ab-a441-3bf69c837c97
+UID:ca018344-4224-4603-b6ac-188b2632fcb9
 SUMMARY:Research Symposium
-DTSTAMP:20210827T062500Z
-DTSTART:20210504T013000Z
-DTEND:20210504T030000Z
+DTSTAMP:20210827T195900Z
+DTSTART:20211130T023000Z
+DTEND:20211130T040000Z
 DESCRIPTION:Symposium for the teams to showcase their research findings
 END:VEVENT
 END:VCALENDAR
