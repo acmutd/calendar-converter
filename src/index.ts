@@ -101,7 +101,7 @@ function rowToEvent(row: any[]): Event {
 function spreadsheetToEvents(spreadsheet: any[][]): Event[] {
   // Sanity check that the header row is what we expect. See `EXPECTED_COLUMNS`.
   if (!arrayEquals(spreadsheet[0], EXPECTED_COLUMNS)) {
-    throw new Error("Unexpected header, aborting: " + spreadsheet[0])
+    throw new Error(`Mistmatched header. Expected: ${EXPECTED_COLUMNS.join(",")}. Got: ${spreadsheet[0]}`);
   }
 
   spreadsheet.shift(); // discard header row
