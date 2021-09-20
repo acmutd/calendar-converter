@@ -6,27 +6,27 @@ METHOD:PUBLISH
 X-WR-CALNAME:ACM Events
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:feba6436-31aa-447f-a253-5f9a9391176a
+UID:1274c4c1-8f1f-4fc7-9138-e2db1f02e7b8
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210825T000000Z
 DTEND:20210825T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:d0513a2e-d6c5-4d79-adab-82f15d255ef8
+UID:e5331a3c-0cac-4ca0-9a7b-543ba5f205ad
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210901T000000Z
 DTEND:20210901T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:9e70d9f5-5b12-4431-9ffd-8378a9741bb2
+UID:cd9d9acc-8755-44f2-8d87-e1d7481e2d10
 SUMMARY:ACM Kick Off
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210903T003000Z
 DTEND:20210903T023000Z
 DESCRIPTION:Join us on Sep 2nd at 7:30 pm CST at SCI 1.220 to learn about h
@@ -35,36 +35,36 @@ DESCRIPTION:Join us on Sep 2nd at 7:30 pm CST at SCI 1.220 to learn about h
 	r sponsors and other ECS orgs\, so don't miss out! 
 END:VEVENT
 BEGIN:VEVENT
-UID:6babe872-107c-4904-8f18-ea3b49c41ad4
+UID:8d0fc26f-978b-48c9-913b-d7c03303133e
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210908T000000Z
 DTEND:20210908T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:57af46f1-86c2-4de5-b83a-0827af59598a
+UID:eb9c0ea2-e02b-4f9c-a5ce-88032a9add97
 SUMMARY:Intro to Full-Stack Development with American Airlines
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210914T223000Z
 DTEND:20210915T000000Z
 DESCRIPTION:Learn industry best practices for building a full-stack applica
 	tion using React\, Typescript & Express.js!
 END:VEVENT
 BEGIN:VEVENT
-UID:6abe493f-13eb-4002-9fb7-017c88d63159
+UID:f59bcd10-f794-4ae2-9b25-9304811a6197
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210915T000000Z
 DTEND:20210915T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:832c0bfb-f83a-451d-9a7f-26a615b12e81
+UID:243da2f6-c4c2-44e1-9795-fa01ef153952
 SUMMARY:CS Essentials
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210917T000000Z
 DTEND:20210917T010000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -72,18 +72,18 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:969185ef-6578-42c4-b40c-2c0e4ef5cd4e
+UID:456a9441-c6b0-4f79-8273-16ccd5667ca3
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210922T000000Z
 DTEND:20210922T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:63cd0634-d105-4bdf-b9e7-fafa3a350438
+UID:1e4a1113-4535-42ce-b29f-c2386779d4e5
 SUMMARY:Software Development Life Cycle with Paycom
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210923T220000Z
 DTEND:20210923T233000Z
 DESCRIPTION:Paycom is an ever growing company and we are hiring! Join us to
@@ -92,18 +92,27 @@ DESCRIPTION:Paycom is an ever growing company and we are hiring! Join us to
 	 at Paycom. Snacks will be provided if we are in person!
 END:VEVENT
 BEGIN:VEVENT
-UID:6fad0048-c6a5-4620-9469-6be12a82b1ec
+UID:d1ef3ace-1878-48f8-bde1-6f3077eaed2b
+SUMMARY:General Meeting
+DTSTAMP:20210920T062500Z
+DTSTART:20210929T013000Z
+DTEND:20210929T023000Z
+DESCRIPTION:Get updates on ACM events and programs. Socialize with ACM memb
+	ers and officers!
+END:VEVENT
+BEGIN:VEVENT
+UID:7c5367ea-7a27-4755-ab82-dbaf66d39cec
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20210929T000000Z
 DTEND:20210929T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:0fd74215-e5ad-4ec3-ae3a-272581c3f7ab
+UID:3b8a7076-be69-4f6d-b7da-8984467b36d7
 SUMMARY:Goldman Sachs Engineering Presents: Alloy
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211001T000000Z
 DTEND:20211001T013000Z
 DESCRIPTION:Join Goldman Sachs Engineers as they demo the Alloy platform wh
@@ -113,97 +122,97 @@ DESCRIPTION:Join Goldman Sachs Engineers as they demo the Alloy platform wh
 	portunities for summer internship and full time roles in the Dallas area.
 END:VEVENT
 BEGIN:VEVENT
-UID:e33ea285-af80-4749-8be7-b27f4b22852a
+UID:9bdcfc61-7090-4b87-b72a-c251e29127d5
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211006T000000Z
 DTEND:20211006T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:06974de3-016f-4532-86c5-5dce30526bf3
+UID:8604f418-cd24-4e89-85d8-e3ea98465ae8
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211013T000000Z
 DTEND:20211013T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:dfbffe55-0297-4218-880e-c91bb9614d09
+UID:d14a36d1-5814-4140-bf1f-7c7aec3f545b
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211020T000000Z
 DTEND:20211020T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:753bc28f-6337-46bc-b9e0-7e550d0e517d
+UID:280053ee-6186-4a92-b214-4ea561b499ce
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211027T000000Z
 DTEND:20211027T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:81d317ac-8af0-4c2c-af24-012affb88787
+UID:7014a97f-eeb5-4886-a277-d8be7ebfad12
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211103T000000Z
 DTEND:20211103T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:4aa7708d-2cf9-4c08-980f-bbb89d0055cf
+UID:1eb62c63-0e1c-475b-845b-e3acdcb17dcb
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211110T010000Z
 DTEND:20211110T024500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:d000eae9-c868-42b4-b3c7-d6a4dfee46e9
+UID:77354125-744f-42b7-9f3a-a02a5144f085
 SUMMARY:AI: Reinforcement Learning Workshop
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211111T010000Z
 DTEND:20211111T020000Z
 END:VEVENT
 BEGIN:VEVENT
-UID:36af1e10-0eaf-4653-8476-6c39064c1633
+UID:9d158179-52de-4079-b69e-2a7e9c19fb27
 SUMMARY:HackUTD
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211113T150000Z
 DTEND:20211114T230000Z
 DESCRIPTION:literally like the event of the century. imagine gatsby's party
 	 but like not that theme and also cooler
 END:VEVENT
 BEGIN:VEVENT
-UID:e75debdd-077c-4dae-bfd3-729f90f87aab
+UID:9b67ed6e-682f-4a39-945a-396149824f29
 SUMMARY:Coding Hangouts
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211117T010000Z
 DTEND:20211117T024500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:55417ec9-1106-477f-9ba9-1592e492b2f1
+UID:92d199bc-27a2-4910-840f-ebc13b38641b
 SUMMARY:Projects Presentation Night
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211118T020000Z
 DTEND:20211118T040000Z
 DESCRIPTION:Presentation for all teams to show off what they've worked on t
 	hroughout the semester
 END:VEVENT
 BEGIN:VEVENT
-UID:9e348ea9-15ab-4643-997f-bd093c4ea6ae
+UID:bda3069a-f09b-44bd-9ef9-d2328dfe5fe8
 SUMMARY:Research Symposium
-DTSTAMP:20210919T062400Z
+DTSTAMP:20210920T062500Z
 DTSTART:20211130T023000Z
 DTEND:20211130T040000Z
 DESCRIPTION:Symposium for the teams to showcase their research findings
