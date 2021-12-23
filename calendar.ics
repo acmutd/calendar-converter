@@ -6,27 +6,27 @@ METHOD:PUBLISH
 X-WR-CALNAME:ACM Events
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:7857bc97-75f8-40d9-8aaa-46519d2d4045
+UID:bbc813de-e174-40a3-a688-2c0975da4206
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210825T000000Z
 DTEND:20210825T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:e64d0c99-aef0-4b0a-bd98-57ee5de69ec5
+UID:f2ecb85c-8be2-4978-a961-5face29db7d0
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210901T000000Z
 DTEND:20210901T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:de6af126-6804-494a-a053-103328802a73
+UID:7c011b2c-744e-4f16-b7e0-e640c28cbd8b
 SUMMARY:ACM Kick Off
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210903T003000Z
 DTEND:20210903T023000Z
 DESCRIPTION:Join us on Sep 2nd at 7:30 pm CST at SCI 1.220 to learn about h
@@ -35,36 +35,36 @@ DESCRIPTION:Join us on Sep 2nd at 7:30 pm CST at SCI 1.220 to learn about h
 	r sponsors and other ECS orgs\, so don't miss out! 
 END:VEVENT
 BEGIN:VEVENT
-UID:6708ecfe-0a05-45bb-8154-9e9538e54353
+UID:a34f9126-68f3-4131-9ffd-e0e8c67f2303
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210908T000000Z
 DTEND:20210908T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:57c545de-1126-48a0-98b6-0b4b424ef85f
+UID:923a5cc8-5a4c-47cd-952e-6a53e8d1d22b
 SUMMARY:Intro to Full-Stack Development with American Airlines
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210914T223000Z
 DTEND:20210915T000000Z
 DESCRIPTION:Learn industry best practices for building a full-stack applica
 	tion using React\, Typescript & Express.js!
 END:VEVENT
 BEGIN:VEVENT
-UID:9edf80e4-3069-45a4-a442-650201f8cee5
+UID:c5c188cf-13c6-479d-835b-fe8a8083e664
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210915T000000Z
 DTEND:20210915T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:ac90b670-b95c-4a3d-a7ec-a1318cec5de0
+UID:0a68c7a2-473e-440f-9803-fc3880df7856
 SUMMARY:CS Essentials Workshop 1
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210917T000000Z
 DTEND:20210917T010000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -72,18 +72,18 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:f1b06aab-0718-41b9-9c8c-ce10a2a282ab
+UID:7618e186-d958-4133-8db4-60450b53cf49
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210922T000000Z
 DTEND:20210922T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:d8ce2f5e-9135-487f-89c7-30b89570f4d6
+UID:94aba2ef-c657-47c3-9dce-f7ebcda90762
 SUMMARY:Software Development Life Cycle with Paycom
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210923T220000Z
 DTEND:20210923T233000Z
 DESCRIPTION:Paycom is an ever growing company and we are hiring! Join us to
@@ -92,9 +92,9 @@ DESCRIPTION:Paycom is an ever growing company and we are hiring! Join us to
 	 at Paycom. Snacks will be provided if we are in person!
 END:VEVENT
 BEGIN:VEVENT
-UID:7996d5b4-8b9f-4d6f-86d4-65e0e610f284
+UID:f132cb46-0814-4b01-9d4b-b92a6ee3691b
 SUMMARY:CS Essentials Workshop 2
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210924T003000Z
 DTEND:20210924T013000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -102,44 +102,44 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:dfdb9f8f-5d42-49ef-b42f-834982c68bb6
+UID:739030cb-3b1a-43bb-8043-9457d35167ae
 SUMMARY:Projects Workshop
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210925T230000Z
 DTEND:20210926T000000Z
 DESCRIPTION:Shell commands for Windows and Unix systems.
 END:VEVENT
 BEGIN:VEVENT
-UID:8c791b70-d65b-47d2-9f5d-abf263e9f8d8
+UID:973ba35d-1685-4b6f-9c68-17c8fe22c49c
 SUMMARY:General Meeting
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210929T013000Z
 DTEND:20210929T023000Z
 DESCRIPTION:Get updates on ACM events and programs. Socialize with ACM memb
 	ers and officers!
 END:VEVENT
 BEGIN:VEVENT
-UID:095db812-c0cf-4424-9d21-0bc21634d8dd
+UID:52189bd7-8281-4341-b587-be065d6103e1
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210929T000000Z
 DTEND:20210929T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:f11a1038-a3fe-4ddf-839d-da56e5c55a6b
+UID:73755c58-827a-42a6-9ac3-131f30af7da0
 SUMMARY:Introduction to Adobe XD
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20210930T000000Z
 DTEND:20210930T013000Z
 DESCRIPTION:Join us to learn about UX best practices! Bring a laptop and fo
 	llow along with our guest speaker Snehal Pendharkar!
 END:VEVENT
 BEGIN:VEVENT
-UID:29bfb67d-a5f9-49f7-832e-ea74cc6f4c49
+UID:7734b638-b8fc-4e96-8a73-31d408dc4bf5
 SUMMARY:Goldman Sachs Engineering Presents: Alloy
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211001T000000Z
 DTEND:20211001T013000Z
 DESCRIPTION:Join Goldman Sachs Engineers as they demo the Alloy platform wh
@@ -149,18 +149,18 @@ DESCRIPTION:Join Goldman Sachs Engineers as they demo the Alloy platform wh
 	portunities for summer internship and full time roles in the Dallas area.
 END:VEVENT
 BEGIN:VEVENT
-UID:a56ba962-4d91-46cc-ba75-118833be3c4f
+UID:093c56ad-c6a6-4c66-ab96-1876df37c623
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211006T000000Z
 DTEND:20211006T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:a89a7d22-649d-4dde-ad49-67d8b4ee6f83
+UID:d765fcdd-0400-425c-91ef-139278befcca
 SUMMARY:CS Essentials Workshop 3
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211008T003000Z
 DTEND:20211008T013000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -168,18 +168,18 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:85aacede-0bf7-4528-a124-662768a5b71b
+UID:55c37e13-7942-4f07-8255-7662a5b07b6d
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211013T000000Z
 DTEND:20211013T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Primarily very unst
 	ructured time for people to just work on things.
 END:VEVENT
 BEGIN:VEVENT
-UID:19e7ce70-8197-41fa-98f8-979403727cd9
+UID:57eed15a-cc5b-4c4b-9426-083ab9b1ca42
 SUMMARY:CS Essentials Workshop 4
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211015T003000Z
 DTEND:20211015T013000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -187,27 +187,27 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:da752cb9-3122-464c-a6fb-5bc0d675848c
+UID:0c074d9f-ae17-4dc0-bf24-215d39000623
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211020T000000Z
 DTEND:20211020T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Unstructured time f
 	or people to just work on things\, get feedback\, or chat with others.
 END:VEVENT
 BEGIN:VEVENT
-UID:7bba18fb-ca3c-472a-9444-54c36e211a66
+UID:1bef33a0-1d40-4af0-bf24-ac141c19b706
 SUMMARY:Day in the Life of a Software Developer with State Farm
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211021T230000Z
 DTEND:20211022T000000Z
 DESCRIPTION:Come learn what it is like going from college to being a full t
 	ime employee. What changes\, and what you can expect.
 END:VEVENT
 BEGIN:VEVENT
-UID:cafce70d-7caa-44e0-acbf-7fede66baace
+UID:b560f634-9973-4814-8212-440ef2857d3f
 SUMMARY:CS Essentials Workshop 5
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211022T003000Z
 DTEND:20211022T013000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -215,27 +215,27 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:a577eb83-0588-40e3-89e2-7d744ab8dd0e
+UID:5c609181-c259-4fc8-9bc8-0ee2912aee6a
 SUMMARY:General Meeting
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211027T013000Z
 DTEND:20211027T023000Z
 DESCRIPTION:Get updates on ACM events and programs. Socialize with ACM memb
 	ers and officers!
 END:VEVENT
 BEGIN:VEVENT
-UID:d46f3c91-9d5a-48a9-bca4-9678df0f6f4d
+UID:d25d8904-b5ac-4048-8d0c-f29f9e366d2d
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211027T000000Z
 DTEND:20211027T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Unstructured time f
 	or people to just work on things\, get feedback\, or chat with others.
 END:VEVENT
 BEGIN:VEVENT
-UID:131a9184-b972-40e3-a238-91ddba54d32c
+UID:e782ea7a-6c05-417c-ac1d-06b531ff21df
 SUMMARY:EOG’s Supply Chain of Data
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211028T230000Z
 DTEND:20211029T003000Z
 DESCRIPTION:Learn about how EOG’s supply chain of data helps enable EOG Res
@@ -247,9 +247,9 @@ DESCRIPTION:Learn about how EOG’s supply chain of data helps enable EOG Res
 	datasets.
 END:VEVENT
 BEGIN:VEVENT
-UID:2a30976b-f59c-4bb5-bdda-7d8afe929a55
+UID:dc0a0249-e7ab-47ea-a1ad-1dda44f6d216
 SUMMARY:CS Essentials Workshop 6
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211029T003000Z
 DTEND:20211029T013000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -257,9 +257,9 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:53372fb0-bb6a-49d8-87b6-38804da0ca9f
+UID:429be0a3-6cc5-44db-a198-6e9b161d0b02
 SUMMARY:Projects Workshop
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211030T230000Z
 DTEND:20211031T000000Z
 DESCRIPTION:Come join our crash course to Regular Expressions (RegEx) with 
@@ -267,28 +267,28 @@ DESCRIPTION:Come join our crash course to Regular Expressions (RegEx) with
 	ill.
 END:VEVENT
 BEGIN:VEVENT
-UID:37769f1e-125b-488d-8372-17c7aa683003
+UID:26bde7e1-fbba-48f1-911e-34a2473f425c
 SUMMARY:ACM Panel with CSUS
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211029T230000Z
 DTEND:20211030T000000Z
 DESCRIPTION:Representing First-Gen & Minority College Students in Tech! Mee
 	ting Link: https://join.acmutd.co/acmcsus
 END:VEVENT
 BEGIN:VEVENT
-UID:f9316b43-1987-4668-9f3e-7f9ba8acd3f3
+UID:dda921d3-21a9-416d-b6c6-4cfeb767b68e
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211103T000000Z
 DTEND:20211103T014500Z
 DESCRIPTION:Casual social/work night for ECS community. Unstructured time f
 	or people to just work on things\, get feedback\, or chat with others.
 END:VEVENT
 BEGIN:VEVENT
-UID:6bbf9dfd-6ab9-4f14-abab-4fd3325027cd
+UID:de66cee8-fa28-4f0e-98ba-5d6720a820c3
 SUMMARY:American Airlines x ACM: Intro to APIs & React with American Airlin
 	es
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211104T223000Z
 DTEND:20211105T003000Z
 DESCRIPTION:Want to learn how to build a React app and use data from an API
@@ -303,25 +303,25 @@ DESCRIPTION:Want to learn how to build a React app and use data from an API
 	https://code.visualstudio.com)
 END:VEVENT
 BEGIN:VEVENT
-UID:bf9c5b67-e292-4343-8544-aedb10e9eee0
+UID:af2d76bc-8e45-4310-9c29-ffa27a7127ea
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211110T010000Z
 DTEND:20211110T024500Z
 DESCRIPTION:Casual social/work night for ECS community. Unstructured time f
 	or people to just work on things\, get feedback\, or chat with others.
 END:VEVENT
 BEGIN:VEVENT
-UID:0b6cf241-0638-4c23-98f1-4e8f3cf80f01
+UID:74af92b1-ac49-465c-ae9a-183a6314dbd5
 SUMMARY:AI: Reinforcement Learning Workshop
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211110T020000Z
 DTEND:20211110T033000Z
 END:VEVENT
 BEGIN:VEVENT
-UID:83fa4a07-4bbf-47a2-ab75-bd89617e681a
+UID:a971a4dc-68c8-47e9-8e55-5698a9542be4
 SUMMARY:CS Essentials Workshop 7
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211112T013000Z
 DTEND:20211112T023000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -329,27 +329,27 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:fb39e6e2-ca54-49f7-b4e8-8d4c205d0c76
+UID:37c1f28b-b342-4bc0-8ef5-168f3f8cf481
 SUMMARY:HackUTD
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211113T150000Z
 DTEND:20211114T230000Z
 DESCRIPTION:literally like the event of the century. imagine gatsby's party
 	 but like not that theme and also cooler
 END:VEVENT
 BEGIN:VEVENT
-UID:660788e7-7593-4ccd-a39c-fd3ed26d4d12
+UID:58b9959e-2a8f-447a-bc08-48edfe93d680
 SUMMARY:Coding Hangouts
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211117T010000Z
 DTEND:20211117T024500Z
 DESCRIPTION:Casual social/work night for ECS community. Unstructured time f
 	or people to just work on things\, get feedback\, or chat with others.
 END:VEVENT
 BEGIN:VEVENT
-UID:a2cd2844-ba3d-4702-a079-c8d705a1661b
+UID:20ca9c0b-d3b1-4952-983c-c625186a15a8
 SUMMARY:CS Essentials Workshop 8
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211119T013000Z
 DTEND:20211119T023000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -357,18 +357,18 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:db721522-e85f-4884-a105-f5d0f224a9ef
+UID:173ee07c-cdcf-4daa-8068-2f5cc4426072
 SUMMARY:Projects Presentation Night
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211118T020000Z
 DTEND:20211118T040000Z
 DESCRIPTION:Presentation for all teams to show off what they've worked on t
 	hroughout the semester
 END:VEVENT
 BEGIN:VEVENT
-UID:030f8abd-fb61-4056-aafb-3baea9f27f2c
+UID:4bd8b3cc-a9f8-4b39-87e1-8eab4c3f2081
 SUMMARY:Research Symposium
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211130T023000Z
 DTEND:20211130T040000Z
 DESCRIPTION:We invite you to join us for ACM Research's Third Symposium. Si
@@ -377,9 +377,9 @@ DESCRIPTION:We invite you to join us for ACM Research's Third Symposium. Si
 	 how to apply for Spring 2022!
 END:VEVENT
 BEGIN:VEVENT
-UID:818d7ffd-b216-4821-a689-41810b666de1
+UID:3585027a-44df-4943-bb2c-1f880822b118
 SUMMARY:CS Essentials Workshop 9
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211203T013000Z
 DTEND:20211203T023000Z
 DESCRIPTION:Do you want to learn necessary programming skills which are not
@@ -387,9 +387,9 @@ DESCRIPTION:Do you want to learn necessary programming skills which are not
 	rt in ACM Education's new CS Essential's Bootcamp this semester!
 END:VEVENT
 BEGIN:VEVENT
-UID:b5f7a156-c65b-4564-82fb-1f435319f24a
+UID:9203b01b-99d1-41db-9d13-3a9b23e5e56e
 SUMMARY:ACM End of Semester Wrapup
-DTSTAMP:20211222T062100Z
+DTSTAMP:20211223T062000Z
 DTSTART:20211204T000000Z
 DTEND:20211204T020000Z
 DESCRIPTION:Join us for ACM's last event of the semester where we'll wrap u
