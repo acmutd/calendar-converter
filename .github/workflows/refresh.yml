@@ -46,13 +46,14 @@ jobs:
           mkdir output
           node build/index.js > output/calendar.ics
       
+      # This script now runs as part of the leadership site repo --> https://github.com/acmutd/leadership
       # Run the birthday script and send slack messages
-      - name: Run Birthday Script
-        env:
-          BIRTHDAY_SPREADSHEET_ID: ${{ secrets.BIRTHDAY_SPREADSHEET_ID }}
-          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-        run: |
-          npm run birthday
+      # - name: Run Birthday Script
+      #   env:
+      #     BIRTHDAY_SPREADSHEET_ID: ${{ secrets.BIRTHDAY_SPREADSHEET_ID }}
+      #     SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+      #   run: |
+      #     npm run birthday
 
       # Abuse this action intended for deploying a gh-pages site to instead push
       # the ics file to its own branch

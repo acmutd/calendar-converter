@@ -96,7 +96,7 @@ function spreadsheetToEvents(spreadsheet: any[][]): Birthday[] {
 
 /**
  * Performs a filter to get back just the names of the people who have a birthday on the day the script is run
- * @param events The list of all birthday objects from the spreadsheet
+ * @param birthdays The list of all birthday objects from the spreadsheet
  */
 function findBirthdays(birthdays: Birthday[]): string[] {
   const today = new Date();
