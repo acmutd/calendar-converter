@@ -33,7 +33,7 @@ jobs:
           npm run build
 
       # Setup gcloud
-      - uses: google-github-actions/setup-gcloud@master
+      - uses: google-github-actions/setup-gcloud@v0
         with:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir output
           node build/index.js > output/calendar.ics
-      
+
       # This script now runs as part of the leadership site repo --> https://github.com/acmutd/leadership
       # Run the birthday script and send slack messages
       # - name: Run Birthday Script
